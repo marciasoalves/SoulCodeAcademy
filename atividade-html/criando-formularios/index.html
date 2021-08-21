@@ -1,0 +1,71 @@
+<!--http página de hipertexro que esta sendo enviada para você-->
+
+<!DOCTYPE html><!--aula20 -22-07-2021 -->
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+<body>
+  <h1>Formulário</h1>
+  <!--post identifica que o objetivo é enviar dados-->
+  <form action="/pagina-processa-dados-do-form" method="post">
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" />
+    </div><br>
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" />
+    </div><br>
+    <div>
+      <label for="msg">Mensagem:</label>
+      <textarea id="msg"></textarea>
+    </div><br>
+    <h2>Qual sua linguagem favorita?</h2>
+    <div>
+        <input type="radio" id="python" name="fav_language" value="python">
+        <label for="python">Python</label>
+        <br>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" name="fav_language" value="css">
+        <label for="html">CSS</label>
+    </div>
+    <h2>Seu game favorito?</h2>
+    <fieldset><!--só pode ser usado em formulario, tem a mesma função da div-->
+      <input type="radio" id="mario" name="fav-game" value="mario"><!--tudo o qe estiver com o mesmo name fará parte do mesmo conjunto-->
+      <label for="mario">Mario</label>
+      <br>
+      <input type="radio" id="zelda" name="fav-game" value="zelda">
+      <label for="zelda">Zelda</label>
+      <br>    
+      <input type="radio" id="metroid" name="fav-game" value="metroid">
+      <label for="metroid">Metroid</label>
+    </fieldset>
+    <br>
+    <h2>Selecione veículo que você usa:</h2>
+    <input type="checkbox" id="veiculo1" name="veiculo1" value="bike">
+    <label for="veiculo1"> bicicleta</label><br>
+    <input type="checkbox" id="veiculo2" name="veiculo2" value="car">
+    <label for="veiculo2">Carro</label><br>
+    sua cor favorita
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    <input type="color" id="favcolor" name="favcolor" value="#ff00000">
+    <label for="points">Ponts de classificação de 0 a 10:</label>
+    <input type="range" id="points" min="0" max="10">
+
+
+
+
+
+    <div class="button">
+      <button type="submit">Enviar Mensagem</button>
+      <button type="reset">Limpar</button>
+    </div>
+</form>
+
+</body>
+</html>

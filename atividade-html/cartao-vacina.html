@@ -1,0 +1,146 @@
+<!DOCTYPE html><!--Desenvolvido por Márcia Alves-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartão de Vacina</title>
+</head>
+<body>
+  <main>
+    <H1>Formulário de Vacinação</H1>
+    <form action="/test">
+      <fieldset>
+        <table >
+          <tr>
+            <td>
+              <label for="name">Nome:</label>
+              <input type="text">
+            </td>
+            <td>
+              <label for="data-atendimento">Data de Atendimento:</label>
+              <input type="date">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="data-nascimento">Data de Nascimento:</label>
+              <input type="date">
+            </td>
+            <td>
+              <label for="tipo-san">Tipo San:</label>
+              <input type="text">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="phone">Telefone:</label>
+              <input type="tel">
+            </td>
+            <td>
+              <label for="fator-rh">Fator RH:</label>
+              <input type="text">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="e-mail">E-mail:</label>
+              <input type="e-mail">
+            </td>
+            <td>
+              <label for="vacinas-aplicadas">Vacinas Aplicadas:</label>
+              <input type="text">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="endereco">Rua:</label>
+              <input type="text">
+            </td>
+            <td>
+              <label for="comorbidade">Comorbidade:</label>
+              <input type="text">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="numero">Número:</label>
+              <input type="number">
+            </td>
+            <td>
+              <label for="phone">Contato de Emergência:</label>
+              <input type="tel">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="bairro">Bairro:</label>
+              <input type="text">
+            </td>
+            <td rowspan="2">
+              <p>Prioridade de Atendiento:</p>
+              <input type="radio" id="emergencia" name="prioridade-atendimento" value="vermelho">
+              <label for="vermelho" style="color:red"><b>Emergência: atendimento imediato</b></label>
+              <br>
+              <input type="radio" id="muito-urgente" name="prioridade-atendimento" value="laranja">
+              <label for="laranja" style="color:orangered"><b>Muito urgente: espera de até 10 minutos</b></label>
+              <br>
+              <input type="radio" id="urgente" name="prioridade-atendimento" value="amarelo">
+              <label for="amarelo" style="color:yellow"><b>Urgente: espera de até 1 hora</b></label>
+              <br>
+              <input type="radio" id="pouco-urgente" name="prioridade-atendimento" value="verde">
+              <label for="verde" style="color:green"><b>Pouco urgente: espera de até 2 horas</b></label>
+              <br>
+              <input type="radio" id="nao-urgente" name="prioridade-atendimento" value="azul">
+              <label for="azul" style="color:blue"><b>Não urgente: espera de até 4 horas</b></label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="numero">CEP:</label>
+              <input type="number">
+            </td>
+          </tr> 
+
+          <tr>
+            <td>
+              <label for="name">Estado:</label>
+              <input type="text">
+            </td>
+            <td>
+              <p>Velocidade de Atendimento</p>
+              <input type="radio" id="velocidade-atendimento" name="velocidade-atendimento" value="lenta">
+              <label for="lenta">Lenta</label>
+              <input type="radio" id="velocidade-atendimento" name="velocidade-atendimento" value="aceitavel">
+              <label for="aceitavel">Aceitável</label>
+              <input type="radio" id="velocidade-atendimento" name="velocidade-atendimento" value="rapida">
+              <label for="rapida">Rápida</label>
+            </td>
+          </tr> 
+
+          <tr>
+            <td>
+              <label for="name">Cidade:</label>
+              <input type="text">
+            </td>
+            <td>
+              <label for="msg">Observações:</label>
+              <textarea id="msg"></textarea>
+            </td>
+          </tr>    
+
+        </table>
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2021 | Márcia Alves</p>
+  </footer>
+</body>
+</html>
