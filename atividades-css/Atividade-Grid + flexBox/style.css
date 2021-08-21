@@ -1,0 +1,145 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+/* criei o grid usando o wrapper */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+:root{
+  background: linear-gradient(to bottom, #06111c 0%, #bec7c7 100%);
+}
+/* Defini o tamanho do gride para o cabeçalho usando o grid e posicionei os elementos dentro dele usando o flex */
+.cabecalho {
+  background-color: #06111c ;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3%;
+  width: 100vw;
+}
+
+/* Defini o tamanho do gride para o corpo do site usando o grid e posicionei os elementos dentro dele usando o flex */
+.corpo {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 70vh;
+}
+
+/* estilização para o rodapé da página, logo do rodapé ancorada para o topo da página */
+footer .logo{
+  width: 25vh;
+  height: 25vh;
+}
+
+footer p{
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #bb2020;
+}
+
+/* estilização para imagem contida no box 2 dentro do main  */
+.img-principal{
+  width:45vw;
+  height:70vh;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.img-principal img{
+  width:30vw;
+  height:30vh;
+  border-radius: 1%; 
+}
+
+/* estilização para definição da logo  */
+.logo-principal{
+  display: flex;  
+}
+.logo img{
+  width: 25vh;
+  height: 25vh;
+}
+/* estilização para os botões das redes sociais */
+
+.redes-sociais img{
+  width: 2vw;
+  height: 2vh;
+  margin: 5px;
+}
+
+/* Defini o tamanho do gride para o o rodapé do site  usando o grid e posicionei os elementos dentro dele usando o flex */
+.rodape {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #06111c;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2%;
+  width: 100vw;
+}
+
+/* estilização dos botões de navegação */
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+ul{
+  text-decoration: none;  
+  list-style: none;
+  margin: 0 auto;
+}
+li{
+  float: left;
+  margin: 2vw;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+a{
+  text-decoration: none;
+  color: #bb2020;
+}
+/* estilização para o texto e o seu containe */
+.texto-principal{
+  width:45vw;
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3vw;
+}
+h1{
+  text-align: center;
+  font-size: 2.5em;
+}
+p{
+  text-align: justify;
+  font-size: 1.25em;
+  padding:1%;
+}

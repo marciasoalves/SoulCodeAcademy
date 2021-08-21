@@ -1,0 +1,61 @@
+
+header{
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  clear: both;
+  margin: 5px;
+}
+main{
+  width: 100%;
+  height: 300px;
+  margin: 5px;
+  float: left;
+}
+footer{
+  width: 100%;
+  height: 300px;
+  margin: 5px;
+  clear: both;
+}
+.colunas1{
+  width: 33%;
+  height: 100%;
+  color: white;
+  float: left;
+  margin: 3px;
+  background-color: brown;
+}
+.colunas2{
+  width: 33%;
+  height: 100%;
+  color: white;
+  float: left;
+  margin: 3px;
+  background-color: blue;
+}
+.colunas3{
+  width: 33%;
+  height: 100%;
+  color: white;
+  float: left;
+  background-color: green;
+  margin: 3px;
+}
+.rodape1{
+  width: 50%;
+  height: 100%;
+  color: blue;
+  float: left;
+  background-color: blueviolet;
+  margin:5px
+
+}
+.rodape2{
+  width: 48%;
+  height: 100%;
+  color: blue;
+  float: left;
+  background-color: purple;
+  margin:5px
+}

@@ -1,0 +1,115 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color: #01c5f9;
+}
+header{
+  width: 80%;
+  margin-left: 10%;
+}
+nav{
+  height: 80px;
+  background-color:  #333333;
+}
+nav ul{
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+nav li{
+  border-right: solid  black 1px;
+  float: left;
+  margin: 10px ;
+  padding: 10px;
+  color: white;
+}
+main{
+  width: 80%;
+  margin-left: 10%;
+  background-color:#E6E6E6;
+  height: 700px;
+}
+footer{
+  clear: both;
+  text-align: center;
+  color: white;
+}
+h1{
+  color: #31ab59;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding: 20px;
+}
+h2{
+  color:#01c5f9;
+  font-variant: small-caps;
+  margin: 3px;
+}
+h3{
+  color: #31ab59;
+}
+p{
+  padding: 20px;
+}
+#bloco-de-informacoes{
+  border-top: solid 20px #333333;
+  padding: 20px;
+}
+#botao-free{
+  border-radius: 5px;
+  width: 130px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #31ab59;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+#painel-principal{
+  width: 80%;
+}
+.about-me{
+  width: 30%;
+  padding: 20px;
+  border-right: solid 1px #01c5f9;
+  float: left;
+}
+.botao{
+  border-radius: 5px;
+  width: 130px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #01c5f9;
+  margin-bottom: 20px;
+}
+.news{
+  width: 30%;
+  padding: 20px;
+  border-right: solid 1px #01c5f9;
+  float: left;
+}
+.olho{
+  margin-top: 30px;
+  float:right;
+}
+.service{
+  width: 30%;
+  padding: 20px;
+  float: left;
+  text-align: justify;
+}
+.service ul{
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,175 @@
+body{  
+  background-image: url(https://i.pinimg.com/originals/1d/b6/c2/1db6c2882705e52a7d2bee4289b0b97d.jpg);
+  background-repeat: no-repeat;
+  background-size: 960px;
+  background-attachment: fixed;
+}/*adicionando a imagem*/
+/*Adicionando as cores e sombras*/
+.norte{
+  box-shadow: 10px 10px 0 lightgreen;
+}
+.nordeste{
+  box-shadow: 10px 10px 0 orange;
+}
+.sudeste{
+  box-shadow: 10px 10px 0 green;
+}
+.centro-oeste{
+  box-shadow:  10px 10px 0 yellow;
+}
+.sul{
+  box-shadow:  10px 10px 0 blue;
+}
+
+.coluna-imagem{
+  width: 200p;
+  height: 100px;
+}
+h1{
+  text-align: center;
+  font-family: 'Lucida Sans', sans-serif;
+}
+.tabela-estados{
+  padding: 30px;
+}
+.estados{
+  width: 200px;
+  height: 150px;
+}
+img{
+  width: 100px;
+  margin: 20px;
+}
+.texto-descritivo{
+  margin: 10px;
+  text-align: justify;
+}
+.capital{
+  color:green;
+  font-size: 20px;
+}
+#acre{
+  border-style: dotted;
+  border-radius: 15%;
+}
+#amapa{
+  border-style: dashed;
+  border-top-left-radius: 20px;
+}
+#amazonas{
+  border-style: solid;
+  border-top-right-radius: 25%;
+}
+#para{
+  border-style: dotted;
+  border-bottom-left-radius: 15%;
+}
+#rodonia{
+  border-style: groove;
+  border-bottom-right-radius: 25%;
+}
+#roraima{
+  border-style: ridge;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius:20px ;
+}
+#tocantins{
+  border-style: inset;
+  border-top-right-radius: 30px;
+}
+#alagoas{
+  border-style: outset;
+}
+#bahia{
+  border-style: dotted;
+  border-width: thin;
+}
+#ceara{
+  border-style: dashed;
+  border-width: medium;
+}
+#maranhao{
+  border-style: solid;
+  border-width: thick;
+}
+#paraiba{
+  border-style: double;
+  border-width: 10px;
+}
+#pernambuco{
+  border-style: outset;
+  border-radius: 10px;
+}
+#piaui{
+  border-style: dotted;
+  border-width: thin;
+  border-radius: 15px;
+}
+#rio-grande-do-norte{
+  border-style: dashed;
+  border-width: medium;
+  border-radius: 5px;
+}
+#sergipe{
+  border-style: solid;
+  border-width: thick;
+  border-top-right-radius: 50px;
+}
+#distrito-federal{
+  border-style: double;
+  border-width: 10px;
+  border-bottom-left-radius: 30px;
+}
+#goias{
+  border-style: solid;
+  border-width: 10px;
+}
+#mato-grosso{
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 15px;
+}
+#mato-grosso-sul{
+  border-style: double;
+  border-width: 5px;
+  border-bottom-left-radius: 30px;
+}
+#parana{
+  border-style: dashed;
+  border-color: aquamarine;
+  border-width: thick;
+  border-top-right-radius: 20px;
+}
+#santa-catarina{
+  border-style: dashed;
+  border-width: 5px;
+  border-bottom-left-radius: 30px;
+}
+#rio-grande-sul{
+  border-style: dashed;
+  border-width: thick;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px ;
+}
+#espirito-santo{
+  border-style: dashed;
+  border-width: thick;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px ;
+}
+#minas-gerais{
+  border-style: solid;
+  border-width: thick;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px 
+}
+#rio-de-janeiro{
+  border-style: dashed;
+  border-width: thick;
+}
+#sao-paulo{
+  border-style: double;
+  border-width: 5px;
+}
+
+

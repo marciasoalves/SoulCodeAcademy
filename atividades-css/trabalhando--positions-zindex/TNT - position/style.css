@@ -1,0 +1,154 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-image: linear-gradient(to top right,#22c1c3, #fdbb2d);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header{
+  width: 100%;
+  height: 80px;
+  background-color:#22c1c3;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: 4;
+}
+
+nav{
+  width: 100%;
+  padding: 15px;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
+li{
+  border-right: solid 2px #fdbb2d;
+  color: #901a27;
+  float: left;
+  margin: 10px ;
+  padding:  10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+img{
+  width: 500px;
+}
+
+.main{
+  width: 100%;
+  height:100vh;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color:#22c1c3;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  position: absolute;
+  top:900px
+}
+
+.conteudo{
+  clear: both;
+}
+.conteudo1{
+  width: 32%;
+  height: 750px;
+  margin: 5px;
+  position: absolute;
+}
+.conteudo2{
+  width: 32%;
+  height: 750px;
+  margin: 5px;
+  position: absolute;
+  left: 33%;
+
+}
+.conteudo3{
+  width: 32%;
+  height: 750px;
+  margin: 5px;
+  position: absolute;
+  left: 66%;
+
+}
+#imagem1{
+  width: 90%;
+  height: 450px;
+  margin: 5px;
+  position: absolute;
+  z-index: 2;
+}
+#bloco1{
+  width: 98%;
+  height: 330px;
+  padding: 10px;
+  margin: 5px;
+  background-color: beige;
+  position: relative;
+  top: 350px;
+  z-index: 1;
+}
+#imagem2{
+  width: 90%;
+  height: 450px;
+  margin: 5px;
+  position: absolute;
+  z-index: 1;
+}
+#bloco2{
+  width: 98%;
+  height: 330px;
+  padding: 10px;
+  margin: 5px;
+  background-color: beige;
+  position: relative;
+  top: 350px;
+  z-index: 2;
+}
+
+#imagem3{
+  width: 90%;
+  height: 450px;
+  margin: 5px;
+  position:absolute;
+  z-index: 2; 
+}
+#bloco3{
+  width: 98%;
+  height: 330px;
+  padding: 10px;
+  margin: 5px;
+  background-color: beige;
+  position: relative;
+  top: 350px;
+  z-index: 1;
+ }
+.formulario{
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  background-color:#fdbb2d;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  border: 3px solid #73AD21;
+  z-index: 4;
+}
+
+
+
+

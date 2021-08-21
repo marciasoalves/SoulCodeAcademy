@@ -1,0 +1,28 @@
+#paragrafo1{ 
+  font-family: Courier;
+  font-size:large;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#paragrafo2{
+  font-family: Verdana;
+  font-size:small;
+  font-style: italic;
+  font-weight: 200;
+
+}
+
+#paragrafo3{
+  font-family: monospace;
+  font-size: normal;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+#paragrafo4{
+  font-family: fantasy;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: 400;
+}

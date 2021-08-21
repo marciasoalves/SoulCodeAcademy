@@ -1,0 +1,40 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/*na div defini o tamanho dos boxes*/
+div{
+  height: 300px;
+  width: 295px;
+  border: solid 1px;
+  margin: 10px;
+  box-shadow: 5px 10px red;
+  
+}
+/*no id container uei o display flex para conseguir mover os elementos par afazer o layout*/
+#container{
+  display: flex;      
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 10px
+}
+/*usei o fez em cada class div para conseguir posicionar os elementos do layout*/
+.div5{
+  flex:25%;
+}
+.div6{
+  flex: 26%;
+}
+.div7{
+  flex: 26%;
+}
+.div12{
+  flex: 26%;
+}
+.div13{
+  flex: 26%;
+}
+
+
